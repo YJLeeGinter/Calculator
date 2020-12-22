@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+
+h1{
+text-align: center;
+}
+
+
+.grid-container {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 370px;
+    margin: 0 auto; /* to locate a box in the center of the screen*/
+  }
+
+.grid-container > div{
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 70px;
+}
+
+div > button{
+    background-color: f1f1f1;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 0.5em;
+    cursor: pointer;
+    width: 3em;
+    
+}
+
+#output {
+    grid-column: 1 / -1;
+    font-size: 2em;
+    height: 2em;;
+
+}
+
+#ac {
+    grid-column: 1 / -1;
+}
+
+#acbutt{
+
+    width: 95%;
+
+}
